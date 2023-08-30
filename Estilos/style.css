@@ -12,8 +12,10 @@
     --cor-de-fundo-de-selecao: #132121;
 
     --tamanho-titulo: 2.5rem;
-    --tamanho-fonte: 1.6rem;
+    --tamanho-fonte: 1.5rem;
     --tamanho-do-conteudo: 30%;
+    --tamanho-titulo-mb: 1.5rem;
+    --tamanho-fonte-mb: 1rem;
 }
 
 body {
@@ -97,7 +99,7 @@ body {
 }
 
 .apresentacao__conteudo__links__titulo{
-    font-size: 24px;
+    font-size: var(--tamanho-fonte);
     font-family: 'Roboto Mono', monospace;
     font-weight: 200;
 }
@@ -106,7 +108,7 @@ body {
     width: 50%;
     text-align: center;
     border-radius: 12px;
-    font-size: 26px;
+    font-size: var(--tamanho-fonte);
     padding: 21px 0px;
     text-decoration: none;
     color:var(--cor-de-destaque);
@@ -246,7 +248,11 @@ body {
     }
 
     .topo__menu__link{
-        font-size: ;
+        font-size: var(--tamanho-titulo-mb);
+    }
+
+    .topo__menu__pagina-atual{
+        font-size: var(--tamanho-titulo-mb);
     }
 
     .minha-foto{
@@ -264,13 +270,45 @@ body {
     .apresentacao__conteudo{
         width: auto;
     }
+    
+    .apresentacao__conteudo__titulo{
+        font-size: var(--tamanho-titulo-mb);
+    }
+
+    .apresentacao__conteudo__texto{
+        font-size: var(--tamanho-fonte-mb);
+    }
+
+    .apresentacao__conteudo__links__titulo{
+        font-size: var(--tamanho-titulo-mb);
+    }
+
+    .apresentacao__conteudo__links__link{
+        font-size: var(--tamanho-fonte-mb);
+    }
 
     .sobre-mim__apresentacao__conteudo{
         width: auto;
     }
 
+    .sobre-mim__apresentacao__conteudo__titulo{
+        font-size: var(--tamanho-titulo-mb);
+    }
+
+    .sobre-mim__apresentacao__conteudo__texto{
+        font-size: var(--tamanho-fonte-mb);
+    }
+
     .curriculo__apresentacao__conteudo{
         width: auto;
+    }
+
+    .curriculo__apresentacao__conteudo__titulo{
+        font-size: var(--tamanho-titulo-mb);
+    }
+
+    .curriculo__apresentacao__conteudo__texto{
+        font-size: var(--tamanho-fonte-mb);
     }
 
     .curriculo__apresentacao__conteudo__lista{
